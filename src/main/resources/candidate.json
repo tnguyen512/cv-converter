@@ -1,0 +1,67 @@
+{
+  "Candidate": {
+    "Personal": {
+      "FullName": "",
+      "FirstName": "",
+      "LastName": "",
+      "Salutation": "",
+      "Gender": "",
+      "Height": "",
+      "Weight": "",
+      "IdCard": "",
+      "PlaceOfBirth": "",
+      "MaritalStatus": "",
+      "DOB": "",
+      "Nationality": "",
+      "Address": "",
+      "Street1": "",
+      "Street2": "",
+      "Town": "",
+      "Country": "",
+      "State": "",
+      "City": "",
+      "PastCode": "",
+      "Email1": "",
+      "Email2": "",
+      "HomePhone": "",
+      "MobilePhone": "",
+      "WorkPhone": "",
+      "Fax": "",
+      "PositionExpected": "",
+      "SalaryExpected": "",
+      "SalaryType": "",
+      "LocationExpected": "",
+      "Relocation": "",
+      "Description": "",
+      "Position": "",
+      "Location": "",
+      "EndDate": "",
+      "StartDate": "",
+      "Employer": "",
+      "Degree": "",
+      "School": "",
+      "Objective": [],
+      "Skills": [],
+      "Interest": []
+    },
+    "Employment": [
+      {
+        "Time": "",
+        "Employer": "",
+        "Location": "",
+        "Position": "",
+        "Description": []
+      }
+    ],
+    "Education": [
+      {
+        "Time": "",
+        "School": "",
+        "Degree": "",
+        "GPA": "",
+        "Location": "",
+        "Description": []
+      }
+    ]
+  }
+}
