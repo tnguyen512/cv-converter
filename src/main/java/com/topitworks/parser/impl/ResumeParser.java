@@ -95,7 +95,8 @@ public class ResumeParser implements Parser {
 
 		// Update Personal Objective, Skills, Interest	
 		for (List<String> list : listValue) {
-			switch (list.get(0)) {
+      String mainKey = list.get(0);
+			switch (mainKey) {
 				case CandidateDocument.OBJECTIVE:
 					list.remove(0);
 					for (String string : list) {
@@ -197,7 +198,7 @@ public class ResumeParser implements Parser {
 
 		Range r = document.getRange();
 		String trimText = "";
-		List<String> mainWordList = new ArrayList<>();
+		List<String> mainWordList = new ArrayList<String>();
 		String keyName = "";
 
 		for (int i = 0; i < r.numCharacterRuns(); i++) {
